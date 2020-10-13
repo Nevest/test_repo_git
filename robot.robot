@@ -9,6 +9,5 @@ ${URL}    ${/}tests_src${/}
 
 *** Test Cases ***
 Run Test
-    [Arguments]    ${url}
-    ${list}    List Files In Directory    ${EXECDIR}${url}    *.txt    absolute
+    ${list}    List Files In Directory    ${EXECDIR}${URL}    *.txt    absolute
 	Log        ${list}

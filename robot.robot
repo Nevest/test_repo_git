@@ -9,5 +9,6 @@ ${URL}    ${EXECDIR}${/}tests_src${/}
 
 *** Test Cases ***
 Run Test
-    ${list}    List Files In Directory    ${URL}    *.txt    absolute
+    Log        ${URL}
+    ${list}    List Files In Directory    ${URL}    *.TXT    absolute
 	Log        ${list}

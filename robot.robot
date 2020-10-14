@@ -4,7 +4,7 @@ Library               Collections
 
 
 *** Variables ***
-${URL}    ${/}tests_src${/}
+${URL}    ${EXECDIR}${/}tests_src${/}
 
 
 *** Test Cases ***
